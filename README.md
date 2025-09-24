@@ -21,6 +21,8 @@ In particular, each paper to be included in the page count must be represented b
   * a child `<a>` element with the link to the PDF file, and
   * a child `<span>` element with the CEURPAGES class, which the script will populate with the corresponding page range.
 
+If you are preparing proceedings for submission to CEUR-WS using their official template, your `index.html` will almost certainly already follow this structure.
+
 No assumptions are made about the filenames of the PDF files, since their paths are extracted directly from the HTML file.
 
 For example, consider the following fragment of an index.html file:
