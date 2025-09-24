@@ -10,7 +10,7 @@ where `<dir>` is the directory containing the `index.html` file (defaults to the
 directory also contains the PDF files to be processed, although this is not strictly required.
 
 The script processes the `index.html` file by:
-1. Saving the original file as index.html.bak.
+1. Saving the original file as `index.html.bak`.
 2. Counting the number of pages in the referenced PDF files.
 3. Updating the file with the corresponding page ranges.
 
@@ -19,7 +19,7 @@ The script processes the `index.html` file by:
 `ceur-add-pagenum makes` specific assumptions about the structure of the `index.html` file.
 In particular, each paper to be included in the page count must be represented by an `<li>` element containing:
   * a child `<a>` element with the link to the PDF file, and
-  * a child `<span>` element with the CEURPAGES class, which the script will populate with the corresponding page range.
+  * a child `<span>` element with the `CEURPAGES` class, which the script will populate with the corresponding page range.
 
 If you are preparing proceedings for submission to CEUR-WS using their official template, your `index.html` will almost certainly already follow this structure.
 
